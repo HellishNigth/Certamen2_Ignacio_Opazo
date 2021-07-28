@@ -13,12 +13,8 @@
                     <input type="text" id="nombre-txt" class="form-control">
                 </div>
                 <div class="mb-3">
-                    <label for="tipo-select" class="form-label">Tipo</label>
-                    <select class="form-select" id="tipo-select">
-                        <option value="tipoA">TipoA</option>
-                        <option value="tipoB">TipoB</option>
-                        <option value="tipoC">TipoC</option>
-                        <option value="tipoD">TipoD</option>
+                    <label for="tip-select" class="form-label">Tipo</label>
+                    <select class="form-select" id="tip-select">
                     </select>
                 </div>
                 <div class="mb-3">
@@ -32,4 +28,7 @@
         </div>
     </div>
 </div>
+@endsection
+@section("javascript")
+    <script src="{{asset('js/entidad2.js')}}"></script>
 @endsection
