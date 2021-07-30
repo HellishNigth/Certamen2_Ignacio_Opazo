@@ -22,10 +22,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="text-danger nav-link active" aria-current="page" href="{{route('home')}}">Entidad</a>
-                  <a class="text-danger nav-link" href="{{route('ver_entidad')}}">Ver Entidad</a>
-                  <a class="text-danger nav-link" href="{{route('entidad2')}}">Entidad2</a>
-                  <a class="text-danger nav-link" href="{{route('ver_entidad2')}}">Ver Entidad2</a>
+                  <a class="text-danger nav-link active" aria-current="page" href="{{route('home')}}">Registrar Lectura</a>
+                  <a class="text-danger nav-link" href="{{route('ver_entidad')}}">Mediciones Existentes</a>
                 </div>
               </div>
             </div>
@@ -34,7 +32,7 @@
     <main class="container-fluid">
       @yield("principal")
     </main>
-    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="{{asset('js/axios_config.js')}}"></script>

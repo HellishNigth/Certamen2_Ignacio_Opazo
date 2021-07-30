@@ -6,9 +6,10 @@
             <table class="table table-hover table-bordered table-striped table-responsive">
                 <thead class="bg-info">
                     <tr>
-                        <td>Nombre</td>
-                        <td>Tipo</td>
-                        <td>Año Lanzamiento</td>
+                        <td>Fecha</td>
+                        <td>Hora</td>
+                        <td>Medidor</td>
+                        <td>Valor</td>
                         <td>Acciones</td>
                     </tr>
                 </thead>
@@ -19,3 +20,7 @@
         </div>
     </div>
 @endsection
+@section("javascript")
+    <script src="{{asset('js/servicios/entidadesService.js')}}"></script>
+    <script src="{{asset('js/ver_entidades.js')}}"></script>
+@endsectio
